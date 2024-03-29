@@ -4,5 +4,5 @@ def fun_fact(x):
  else:
    x=(x*fun_fact(x-1))
  return x
-num=20
+num=10
 print("El factorial de ", num, "es ",fun_fact(num))
